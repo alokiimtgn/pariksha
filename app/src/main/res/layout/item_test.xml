@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="2dp"
+    android:layout_marginBottom="7dp">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/id_CView_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        app:cardCornerRadius="9dp"
+        android:elevation="12dp"
+        app:cardElevation="12dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+
+            <TextView
+                android:id="@+id/idTview_TestId"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idTview_TestName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#4CAF50"
+                android:layout_margin="5dp"
+                android:layout_below="@id/idTview_TestId"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/idTview_Audience"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTview_TestName"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idTview_Description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/idTview_Audience"
+                android:layout_margin="5dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/idTview_createdBy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#9C27B0"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/idSwitch_Status"
+               />
+
+            <TextView
+                android:id="@+id/idTview_timeStamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="5dp"
+                android:layout_below="@id/idTview_Description"
+                />
+
+
+
+            <Switch
+                android:id="@+id/idSwitch_Status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:clickable="false"
+                android:textOff="InActive"
+                android:textOn="Active" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

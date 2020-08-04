@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_height"
+    android:layout_marginTop="@dimen/dialog_marginTop"
+    android:layout_marginBottom="@dimen/dialog_Bottom"
+    android:layout_marginLeft="@dimen/dialog_marginLeft"
+    android:layout_marginRight="@dimen/dialog_marginRight">
+
+    <ImageView
+        android:layout_width="@dimen/imageView_profileDialogCircle_width"
+        android:layout_height="@dimen/imageView_profileDialogCircle_height"
+        android:layout_marginTop="@dimen/imageView_profileDialogCircle_marginTop"
+        android:layout_marginBottom="@dimen/imageView_profileDialogCircle_marginBottom"
+        android:layout_marginLeft="@dimen/imageView_smallCircle_marginLeft"
+        android:layout_marginRight="@dimen/imageView_smallCircle_marginRight"
+        android:paddingLeft="@dimen/imageView_profileDialogCircle_paddingLeft"
+        android:paddingRight="@dimen/imageView_profileDialogCircle_paddingRight"
+        android:paddingTop="@dimen/imageView_profileDialogCircle_paddingTop"
+        android:paddingBottom="@dimen/imageView_profileDialogCircle_paddingBottom"
+        android:layout_centerHorizontal="true"
+         />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/idImdProfpic"
+        android:layout_width="@dimen/imageView_profileDialogCircle_width"
+        android:layout_height="@dimen/imageView_profileDialogCircle_height"
+        android:layout_marginTop="@dimen/imageView_profileDialogCircle_marginTop"
+        android:layout_marginBottom="@dimen/imageView_profileDialogCircle_marginBottom"
+        android:layout_marginLeft="@dimen/imageView_smallCircle_marginLeft"
+        android:layout_marginRight="@dimen/imageView_smallCircle_marginRight"
+        android:paddingLeft="@dimen/imageView_profileDialogCircle_paddingLeft"
+        android:paddingRight="@dimen/imageView_profileDialogCircle_paddingRight"
+        android:paddingTop="@dimen/imageView_profileDialogCircle_paddingTop"
+        android:paddingBottom="@dimen/imageView_profileDialogCircle_paddingBottom"
+        app:civ_border_width="0dp"
+        android:layout_centerHorizontal="true"/>
+
+
+
+    <View
+        android:id="@+id/idSeprator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hor_sepLine_height"
+        android:layout_below="@id/idImdProfpic"
+        android:layout_marginLeft="@dimen/hor_sepLine_marginLeft"
+        android:layout_marginTop="@dimen/hor_sepLine_marginTop"
+        android:layout_marginRight="@dimen/hor_sepLine_marginRight"
+        android:layout_marginBottom="@dimen/hor_sepLine_marginBottom"
+        android:background="@color/btn_bckg_color"
+        android:paddingLeft="@dimen/hor_sepLine_paddingLeft"
+        android:paddingTop="@dimen/hor_sepLine_paddingTop"
+        android:paddingRight="@dimen/hor_sepLine_paddingRight"
+        android:paddingBottom="@dimen/hor_sepLine_paddingBottom" />
+
+    <TextView
+        android:id="@+id/idTvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/idSeprator"
+        android:layout_marginTop="@dimen/textView_marginTop_first"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:gravity="center_horizontal"
+
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idTvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTvName"
+        android:layout_marginTop="@dimen/textView_marginTop"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:gravity="center_horizontal"
+
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/id_TvCourseBranch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTvEmail"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginTop="@dimen/textView_marginTop"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:text="Course : B.Tech(IT)"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/idTvMobileNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_TvCourseBranch"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginTop="@dimen/textView_marginTop"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:text="Mobile No : +91 8130300913"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idTCollegeName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTvMobileNo"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginTop="@dimen/textView_marginTop"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:gravity="center_horizontal"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:text="College : IIMT , Greater Noida"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/idBtnEditProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="@dimen/btn_marginLeft"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_marginRight="@dimen/btn_marginRight"
+        android:layout_marginBottom="@dimen/btn_paddingBottom"
+        android:background="@drawable/rounded_button"
+        android:paddingLeft="@dimen/btn_paddingLeft"
+        android:paddingTop="@dimen/btn_paddingTop"
+        android:paddingRight="@dimen/btn_paddingRight"
+        android:paddingBottom="@dimen/btn_paddingBottom"
+        android:text="@string/text_returntoTest"
+        android:textColor="@color/btn_text_color"
+        android:textStyle="bold" />
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.AboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardView_marginLeft"
+            android:layout_marginTop="@dimen/cardView_marginTop"
+            android:layout_marginRight="@dimen/cardView_marginRight"
+            android:layout_marginBottom="@dimen/cardView_marginBottom"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+
+                <TextView
+                    android:id="@+id/idTviewDevName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="@string/app_name"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardView_marginLeft"
+            android:layout_marginTop="@dimen/cardView_marginTop"
+            android:layout_marginRight="@dimen/cardView_marginRight"
+            android:layout_marginBottom="@dimen/cardView_marginBottom"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <TextView
+                    android:id="@+id/idTviewDevMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="This is an Android based Online test platform with the following features
+                     \n\n* Auto Test evaluation.
+                     \n* Summarized and detailed result after submission of each test.
+                     \n* Inbuilt timer that keep track of test duration.
+                     \n* Auto submission of the test once the given time is over."
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

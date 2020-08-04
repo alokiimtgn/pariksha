@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/dialog_height">
+
+    <TextView
+        android:id="@+id/idTview_cand_ins"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:layout_marginTop="@dimen/textView_marginTop"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:text="@string/textView_candidateInstructionHeader" />
+
+
+    <TextView
+        android:id="@+id/idTv_TestInstr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/textView_marginLeft"
+        android:layout_marginRight="@dimen/textView_marginRight"
+        android:layout_marginTop="@dimen/textView_marginTop_first"
+        android:layout_marginBottom="@dimen/textView_marginBottom"
+        android:paddingTop="@dimen/textView_paddingTop"
+        android:paddingBottom="@dimen/textView_paddingBottom"
+        android:paddingLeft="@dimen/textView_paddingLeft"
+        android:paddingRight="@dimen/textView_paddingRight"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="@string/textView_candidateInstruction"
+        android:gravity="center_horizontal" />
+
+</LinearLayout>

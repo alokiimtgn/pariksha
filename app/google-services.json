@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "197934984917",
+    "firebase_url": "https://androiddevelopment-b9345.firebaseio.com",
+    "project_id": "androiddevelopment-b9345",
+    "storage_bucket": "androiddevelopment-b9345.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197934984917:android:1178d6dc14983ff0093c5c",
+        "android_client_info": {
+          "package_name": "com.example.pariksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "197934984917-u7ksde577c24knhmgtl38saiotfvfh2g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLeU7Y4zEGYxrS3MyQ2xQKMCOh7GKd9XA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "197934984917-u7ksde577c24knhmgtl38saiotfvfh2g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

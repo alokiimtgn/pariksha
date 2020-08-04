@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- TODO: Button Dimensions -->
+    <dimen name="btn_marginLeft">20dp</dimen>
+    <dimen name="btn_marginRight">20dp</dimen>
+    <dimen name="btn_marginTop">20dp</dimen>
+    <dimen name="btn_marginBottom">10dp</dimen>
+
+    <dimen name="btn_paddingTop">5dp</dimen>
+    <dimen name="btn_paddingBottom">5dp</dimen>
+    <dimen name="btn_paddingLeft">10dp</dimen>
+    <dimen name="btn_paddingRight">10dp</dimen>
+
+
+    <!-- TODO: CardView Dimensions -->
+    <dimen name="cardView_marginLeft">5dp</dimen>
+    <dimen name="cardView_marginRight">5dp</dimen>
+    <dimen name="cardView_marginTop">10dp</dimen>
+    <dimen name="cardView_marginBottom">10dp</dimen>
+
+    <dimen name="cardView_paddingTop">5dp</dimen>
+    <dimen name="cardView_paddingBottom">5dp</dimen>
+    <dimen name="cardView_paddingLeft">10dp</dimen>
+    <dimen name="cardView_paddingRight">10dp</dimen>
+
+
+
+
+    <!-- TODO: EditText Dimensions -->
+    <dimen name="editText_marginLeft">20dp</dimen>
+    <dimen name="editText_marginRight">20dp</dimen>
+    <dimen name="editText_marginTop">10dp</dimen>
+    <dimen name="editText_marginBottom">10dp</dimen>
+
+    <dimen name="editText_paddingTop">10dp</dimen>
+    <dimen name="editText_paddingBottom">10dp</dimen>
+    <dimen name="editText_paddingLeft">10dp</dimen>
+    <dimen name="editText_paddingRight">10dp</dimen>
+
+
+    <!-- TODO: ImageView Dimensions -->
+    <dimen name="imageView_marginLeft">10dp</dimen>
+    <dimen name="imageView_marginRight">10dp</dimen>
+    <dimen name="imageView_marginTop">10dp</dimen>
+    <dimen name="imageView_marginBottom">10dp</dimen>
+
+    <dimen name="imageView_paddingTop">5dp</dimen>
+    <dimen name="imageView_paddingBottom">5dp</dimen>
+    <dimen name="imageView_paddingLeft">5dp</dimen>
+    <dimen name="imageView_paddingRight">5dp</dimen>
+
+
+    <!-- TODO: ImageView SmallCircle Dimensions -->
+    <dimen name="imageView_smallCircle_width">45dp</dimen>
+    <dimen name="imageView_smallCircle_height">45dp</dimen>
+    <dimen name="imageView_smallCircle_width_profile">65dp</dimen>
+    <dimen name="imageView_smallCircle_height_profile">65dp</dimen>
+    <dimen name="imageView_smallCircle_marginLeft">10dp</dimen>
+    <dimen name="imageView_smallCircle_marginRight">10dp</dimen>
+    <dimen name="imageView_smallCircle_marginTop">10dp</dimen>
+    <dimen name="imageView_smallCircle_marginBottom">10dp</dimen>
+
+    <dimen name="imageView_smallCircle_paddingTop">5dp</dimen>
+    <dimen name="imageView_smallCircle_paddingBottom">5dp</dimen>
+    <dimen name="imageView_smallCircle_paddingLeft">5dp</dimen>
+    <dimen name="imageView_smallCircle_paddingRight">5dp</dimen>
+
+
+    <!-- TODO: ImageView ProfileDialogCircle Dimensions -->
+    <dimen name="imageView_profileDialogCircle_width">65dp</dimen>
+    <dimen name="imageView_profileDialogCircle_height">65dp</dimen>
+
+    <dimen name="imageView_profileDialogCircle_marginLeft">10dp</dimen>
+    <dimen name="imageView_profileDialogCircle_marginRight">10dp</dimen>
+    <dimen name="imageView_profileDialogCircle_marginTop">10dp</dimen>
+    <dimen name="imageView_profileDialogCircle_marginBottom">5dp</dimen>
+
+    <dimen name="imageView_profileDialogCircle_paddingTop">5dp</dimen>
+    <dimen name="imageView_profileDialogCircle_paddingBottom">5dp</dimen>
+    <dimen name="imageView_profileDialogCircle_paddingLeft">5dp</dimen>
+    <dimen name="imageView_profileDialogCircle_paddingRight">5dp</dimen>
+
+
+    <!-- TODO: RecyclerView Dimensions -->
+    <dimen name="recyclerView_marginLeft">5dp</dimen>
+    <dimen name="recyclerView_marginRight">5dp</dimen>
+    <dimen name="recyclerView_marginTop">5dp</dimen>
+    <dimen name="recyclerView_marginBottom">5dp</dimen>
+
+    <dimen name="recyclerView_paddingTop">0dp</dimen>
+    <dimen name="recyclerView_paddingBottom">0dp</dimen>
+    <dimen name="recyclerView_paddingLeft">0dp</dimen>
+    <dimen name="recyclerView_paddingRight">0dp</dimen>
+
+
+    <!-- TODO: Horizontal RecyclerView Dimensions -->
+    <dimen name="horizontal_recyclerView_marginLeft">5dp</dimen>
+    <dimen name="horizontal_recyclerView_marginRight">5dp</dimen>
+    <dimen name="horizontal_recyclerView_marginTop">5dp</dimen>
+    <dimen name="horizontal_recyclerView_marginBottom">5dp</dimen>
+
+    <dimen name="horizontal_recyclerView_paddingTop">0dp</dimen>
+    <dimen name="horizontal_recyclerView_paddingBottom">0dp</dimen>
+    <dimen name="horizontal_recyclerView_paddingLeft">0dp</dimen>
+    <dimen name="horizontal_recyclerView_paddingRight">0dp</dimen>
+
+
+    <!-- TODO: RecyclerView Item Dimensions -->
+    <dimen name="recyclerViewItem_marginLeft">20dp</dimen>
+    <dimen name="recyclerViewItem_marginRight">20dp</dimen>
+    <dimen name="recyclerViewItem_marginTop">10dp</dimen>
+    <dimen name="recyclerViewItem_marginBottom">10dp</dimen>
+
+    <dimen name="recyclerViewItem_paddingTop">0dp</dimen>
+    <dimen name="recyclerViewItem_paddingBottom">0dp</dimen>
+    <dimen name="recyclerViewItem_paddingLeft">0dp</dimen>
+    <dimen name="recyclerViewItem_paddingRight">0dp</dimen>
+
+
+    <!-- TODO: ProgressBar Dimensions -->
+    <dimen name="progressBar_marginLeft">10dp</dimen>
+    <dimen name="progressBar_marginRight">10dp</dimen>
+    <dimen name="progressBar_marginTop">2dp</dimen>
+    <dimen name="progressBar_marginBottom">2dp</dimen>
+
+    <dimen name="progressBar_paddingTop">0dp</dimen>
+    <dimen name="progressBar_paddingBottom">0dp</dimen>
+    <dimen name="progressBar_paddingLeft">0dp</dimen>
+    <dimen name="progressBar_paddingRight">0dp</dimen>
+
+
+    <!-- TODO: Horizontal Sepration Line Dimensions -->
+    <dimen name="hor_sepLine_width">0dp</dimen>
+    <dimen name="hor_sepLine_height">3dp</dimen>
+    <dimen name="hor_sepLine_marginLeft">5dp</dimen>
+    <dimen name="hor_sepLine_marginRight">5dp</dimen>
+    <dimen name="hor_sepLine_marginTop">15dp</dimen>
+    <dimen name="hor_sepLine_marginBottom">0dp</dimen>
+
+    <dimen name="hor_sepLine_paddingLeft">0dp</dimen>
+    <dimen name="hor_sepLine_paddingRight">0dp</dimen>
+    <dimen name="hor_sepLine_paddingTop">0dp</dimen>
+    <dimen name="hor_sepLine_paddingBottom">0dp</dimen>
+
+
+    <!-- TODO: Custom Dialog Dimensions -->
+    <dimen name="dialog_width">0dp</dimen>
+    <dimen name="dialog_height">370dp</dimen>
+    <dimen name="dialog_marginLeft">5dp</dimen>
+    <dimen name="dialog_marginRight">5dp</dimen>
+    <dimen name="dialog_marginTop">10dp</dimen>
+    <dimen name="dialog_Bottom">10dp</dimen>
+    <dimen name="dialog_paddingLeft"></dimen>
+    <dimen name="dialog_paddingRight"></dimen>
+    <dimen name="dialog_paddingTop"></dimen>
+    <dimen name="dialog_paddingBottom"></dimen>
+
+
+    <!-- TODO: EditText Drawable Dimensions -->
+     <dimen name="drawableLeft_padding">1dp</dimen>
+     <dimen name="drawableRight_padding">1dp</dimen>
+     <dimen name="drawableTop_padding">1dp</dimen>
+     <dimen name="drawableBottom_padding">1dp</dimen>
+
+    <!-- TODO: Layout Dimensions -->
+    <dimen name="layout_marginLeft">0dp</dimen>
+    <dimen name="layout_marginRight">0dp</dimen>
+    <dimen name="layout_marginTop">0dp</dimen>
+    <dimen name="layout_marginBottom">0dp</dimen>
+
+    <dimen name="layout_paddingTop">50dp</dimen>
+    <dimen name="layout_paddingBottom">90dp</dimen>
+    <dimen name="layout_paddingLeft">1dp</dimen>
+    <dimen name="layout_paddingRight">1dp</dimen>
+
+
+
+    <!-- TODO: TextView Dimensions -->
+    <dimen name="textView_marginLeft">20dp</dimen>
+    <dimen name="textView_marginRight">20dp</dimen>
+    <dimen name="textView_marginTop">1dp</dimen>
+    <dimen name="textView_marginTop_first">20dp</dimen>
+    <dimen name="textView_marginBottom">1dp</dimen>
+
+    <dimen name="textView_paddingTop">5dp</dimen>
+    <dimen name="textView_paddingBottom">5dp</dimen>
+    <dimen name="textView_paddingLeft">2dp</dimen>
+    <dimen name="textView_paddingRight">2dp</dimen>
+
+
+    <!-- TODO: TextView CenterText Dimensions -->
+    <dimen name="textView_cTmarginLeft">0dp</dimen>
+    <dimen name="textView_cTmarginRight">0dp</dimen>
+    <dimen name="textView_cTmarginTop">10dp</dimen>
+    <dimen name="textView_cTmarginTop_first">20dp</dimen>
+    <dimen name="textView_cTmarginBottom">15dp</dimen>
+
+    <dimen name="textView_cTpaddingTop">5dp</dimen>
+    <dimen name="textView_cTpaddingBottom">5dp</dimen>
+    <dimen name="textView_cTpaddingLeft">0dp</dimen>
+    <dimen name="textView_cTpaddingRight">0dp</dimen>
+
+    <!-- TODO: TextView Links Dimensions -->
+    <dimen name="textViewLink_marginLeft">20dp</dimen>
+    <dimen name="textViewLink_marginRight">20dp</dimen>
+    <dimen name="textViewLink_marginTop">10dp</dimen>
+    <dimen name="textViewLink_marginTop_first">20dp</dimen>
+    <dimen name="textViewLink_marginBottom">10dp</dimen>
+
+    <dimen name="textViewLink_paddingTop">5dp</dimen>
+    <dimen name="textViewLink_paddingBottom">5dp</dimen>
+    <dimen name="textViewLink_paddingLeft">2dp</dimen>
+    <dimen name="textViewLink_paddingRight">2dp</dimen>
+
+
+    <!-- TODO: TextInputLayout Dimensions -->
+    <dimen name="tiplayout_marginLeft">20dp</dimen>
+    <dimen name="tiplayout_marginRight">20dp</dimen>
+    <dimen name="tiplayout_marginTop">10dp</dimen>
+    <dimen name="tiplayout_marginBottom">10dp</dimen>
+
+    <dimen name="tiplayout_paddingTop">1dp</dimen>
+    <dimen name="tiplayout_paddingBottom">10dp</dimen>
+    <dimen name="tiplayout_paddingLeft">5dp</dimen>
+    <dimen name="tiplayout_paddingRight">5dp</dimen>
+
+    <!-- TODO: RadioButton Dimensions -->
+    <dimen name="radioButton_marginTop">10dp</dimen>
+    <dimen name="radioButton_marginBottom">10dp</dimen>
+    <dimen name="radioButton_marginLeft">5dp</dimen>
+    <dimen name="radioButton_marginRight">5dp</dimen>
+
+
+    <dimen name="tview_height_cog1">65dp</dimen>
+    <dimen name="tview_width_cog1">65dp</dimen>
+    <dimen name="tview_height_cog2">65dp</dimen>
+    <dimen name="tview_width_cog2">65dp</dimen>
+    <dimen name="tview_marginLeft_cog1">0dp</dimen>
+    <dimen name="tview_marginRight_cog1">5dp</dimen>
+    <dimen name="tview_marginTop_cog1">0dp</dimen>
+    <dimen name="tview_marginBottom_cog1">0dp</dimen>
+
+    <dimen name="tview_marginLeft_cog2">5dp</dimen>
+    <dimen name="tview_marginRight_cog2">0dp</dimen>
+    <dimen name="tview_marginTop_cog2">0dp</dimen>
+    <dimen name="tview_marginBottom_cog2">0dp</dimen>
+
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.RegisterFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/layout_marginLeft"
+        android:layout_marginTop="@dimen/layout_marginTop"
+        android:layout_marginRight="@dimen/layout_marginRight"
+        android:layout_marginBottom="@dimen/layout_marginBottom"
+        android:background="@color/loginLayout_color"
+        android:paddingLeft="@dimen/layout_marginLeft"
+        android:paddingTop="@dimen/layout_paddingTop"
+        android:paddingRight="@dimen/layout_marginRight"
+        android:paddingBottom="@dimen/layout_paddingBottom">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/id_tipUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/tiplayout_marginLeft"
+            android:layout_marginTop="@dimen/tiplayout_marginTop"
+            android:layout_marginRight="@dimen/tiplayout_marginRight"
+            android:layout_marginBottom="@dimen/tiplayout_marginBottom"
+
+            android:background="@drawable/circular_edittext"
+            android:paddingLeft="@dimen/tiplayout_paddingLeft"
+            android:paddingTop="@dimen/tiplayout_paddingTop"
+            android:paddingRight="@dimen/tiplayout_paddingRight"
+            android:paddingBottom="@dimen/tiplayout_paddingBottom">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_person_black_24dp"
+                android:drawablePadding="@dimen/drawableLeft_padding"
+                android:hint=""
+                android:maxLength="50"
+                android:singleLine="true"
+                android:textColor="@color/text_editText_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/id_tipPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tipUsername"
+            android:layout_marginLeft="@dimen/tiplayout_marginLeft"
+            android:layout_marginTop="@dimen/tiplayout_marginTop"
+            android:layout_marginRight="@dimen/tiplayout_marginRight"
+            android:layout_marginBottom="@dimen/tiplayout_marginBottom"
+
+            android:background="@drawable/circular_edittext"
+            android:paddingLeft="@dimen/tiplayout_paddingLeft"
+            android:paddingTop="@dimen/tiplayout_paddingTop"
+            android:paddingRight="@dimen/tiplayout_paddingRight"
+            android:paddingBottom="@dimen/tiplayout_paddingBottom">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:drawableLeft="@drawable/ic_vpn_key_black_24dp"
+                android:drawablePadding="@dimen/drawableLeft_padding"
+                android:hint=""
+                android:maxLength="20"
+                android:singleLine="true"
+                android:textColor="@color/text_editText_color" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/idBtnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_tipPassword"
+            android:layout_marginLeft="@dimen/btn_marginLeft"
+            android:layout_marginTop="@dimen/btn_marginTop"
+            android:layout_marginRight="@dimen/btn_marginRight"
+            android:layout_marginBottom="@dimen/btn_marginBottom"
+            android:background="@drawable/rounded_button"
+            android:text="@string/text_btn_register"
+            android:textColor="@color/btn_text_color"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/idTViewLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/idBtnRegister"
+            android:layout_marginLeft="@dimen/textViewLink_marginLeft"
+            android:layout_marginTop="@dimen/textViewLink_marginTop"
+            android:layout_marginRight="@dimen/textViewLink_marginRight"
+            android:layout_marginBottom="@dimen/textViewLink_marginBottom"
+            android:clickable="true"
+            android:text="@string/text_already_registered"
+            android:textAlignment="center"
+            android:textColor="@color/color_tViewLink2"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+    </RelativeLayout>
+
+
+</FrameLayout>

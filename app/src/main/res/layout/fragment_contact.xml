@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.ContactFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardView_marginLeft"
+            android:layout_marginTop="@dimen/cardView_marginTop"
+            android:layout_marginRight="@dimen/cardView_marginRight"
+            android:layout_marginBottom="@dimen/cardView_marginBottom"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/idImvDevPic"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/person_orange" />
+
+                <TextView
+                    android:id="@+id/idTviewDevName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idImvDevPic"
+                    android:gravity="center_horizontal"
+                    android:text="Aditi,Apurva"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/idTviewDevMobile"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idTviewDevName"
+                    android:gravity="center_horizontal"
+                    android:text="Mobile No : +91 XXXXXXXXXXX"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/idTviewDevEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/idTviewDevMobile"
+                    android:gravity="center_horizontal"
+                    android:text="Email : xyz@gmail.com"
+                    android:textAlignment="center"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/cardView_marginLeft"
+            android:layout_marginTop="@dimen/cardView_marginTop"
+            android:layout_marginRight="@dimen/cardView_marginRight"
+            android:layout_marginBottom="@dimen/cardView_marginBottom"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="20dp">
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/idFabMsg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:background="#605B5B"
+                    android:src="@drawable/ic_message_black_24dp"
+                    android:tint="#fff" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/idFabCall"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/idFabMsg"
+                    android:background="#605B5B"
+                    android:src="@drawable/ic_call_black_24dp"
+                    android:tint="#fff" />
+
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:id="@+id/idFabEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_toRightOf="@+id/idFabCall"
+                    android:background="#605B5B"
+                    android:src="@drawable/ic_email_24dp"
+                    android:tint="#fff" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</FrameLayout>

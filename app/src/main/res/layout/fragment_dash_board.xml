@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.DashBoardFragment">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:paddingLeft="@dimen/layout_paddingLeft"
+        android:paddingTop="@dimen/layout_paddingTop"
+        android:paddingRight="@dimen/layout_paddingRight"
+        android:paddingBottom="@dimen/tiplayout_paddingBottom">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/id_cview0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/id_imvcard0"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/pen_orange" />
+
+                <TextView
+                    android:id="@+id/id_tviewcard0"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_imvcard0"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/text_dbCard0"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/id_cview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="110dp"
+            android:padding="5dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="8dp">
+
+                <ImageView
+                    android:id="@+id/id_imvcard1"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/person_orange" />
+
+                <TextView
+                    android:id="@+id/id_tviewcard1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_imvcard1"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/text_dbCard1"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/id_cview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/id_imvcard2"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/result_orange" />
+
+                <TextView
+                    android:id="@+id/id_tviewcard2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_imvcard2"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/text_dbCard2"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/id_cview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_cview0"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/id_imvcard3"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/notice_orange" />
+
+                <TextView
+                    android:id="@+id/id_tviewcard3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_imvcard3"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/text_dbCard3"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/id_cview4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/id_cview2"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="10dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+
+                <ImageView
+                    android:id="@+id/id_imvcard4"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/dev_orange" />
+
+                <TextView
+                    android:id="@+id/id_tviewcard4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/id_imvcard4"
+                    android:layout_centerHorizontal="true"
+                    android:text="@string/text_dbCard4"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</FrameLayout>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Pariksha</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- TODO: TextView Text -->
+    <string name="text_welcomeUser">Welcome! Alok Kumar</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+
+
+    <!-- TODO: EditText hint Login and Register-->
+    <string name="text_hint_loginUsername">Username</string>
+    <string name="text_hint_loginPassword">Password</string>
+    <string name="text_hint_Name">Name</string>
+    <string name="text_hint_Username">Username</string>
+    <string name="text_hint_RegisterPassword">Password</string>
+    <string name="text_hint_RegisterCPassword">Confirm Password</string>
+    <string name="text_hint_MobileNo">Mobile No.</string>
+
+
+    <!-- TODO: Button Text -->
+    <string name="text_btn_login">Login</string>
+    <string name="text_btn_register">Register</string>
+    <string name="text_btn_submitTest">Submit Test</string>
+    <string name="text_btn_editProfile">Edit Profile</string>
+    <string name="text_not_registered_yet">Not Registered Yet ? Register</string>
+    <string name="text_already_registered">Already Registered ? Login</string>
+    <string name="text_forgot_password">Forgot Password ?</string>
+
+
+    <!-- TODO: EditText Validation Error Messages-->
+    <string name="text_error_emptyUsername">Username cannot be Empty!</string>
+    <string name="text_error_tooShortUsername">Username must be of atleast 6 characters!</string>
+    <string name="text_error_whiteSpaceUsername">Username  cannot contain white space!</string>
+
+    <string name="text_error_emptyPassword">Password cannot be Empty!</string>
+    <string name="text_error_tooShortPassword">Password must be of atleast 6 characters!</string>
+    <string name="text_error_whiteSpacePassword">Password cannot contain white space!</string>
+
+
+    <!-- TODO: EditText Validation Error Messages-->
+    <string name="textView_candidateInstrHeader">Instructions</string>
+    <string name="textView_candidateInstruction">
+            1. For each correct attempt awarded marks is +3.\n
+            2. For each Incorrect attempt -1 will deducted.\n
+            3. For each unattempted question awarded marks will be 0.\n
+            4. Once the test has started avoid switching between the screens , doing so will result in end of the test.\n
+      </string>
+    <string name="textView_candidateInstructionHeader">Instructions</string>
+    <string name="text_splash">Epariksha</string>
+    <string name="text_dbCard0">Take a Test</string>
+    <string name="text_dbCard1">Profile</string>
+    <string name="text_dbCard2">View Results</string>
+    <string name="text_dbCard3">Notice Board</string>
+    <string name="text_dbCard4">Dev Info</string>
+    <string name="text_returntoTest">Return to Test</string>
+</resources>
